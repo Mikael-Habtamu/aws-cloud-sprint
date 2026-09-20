@@ -21,7 +21,7 @@ tags: [sprint, iam]
 - [ ] Linux gaps (SSH keys, permissions, systemctl, journalctl): moved to Day 3
 - [ ] Baseline 3-minute recording: IAM roles and why they beat access keys
 - [x] LinkedIn sprint announcement (15 Sept – 14 Oct)
-- [ ] This note committed and pushed
+- [x] This note committed and pushed
 
 ## What I built
 My AWS account is secured: root has MFA, daily work goes through an IAM admin user, and a $15 budget alarm watches spending. The AWS CLI is installed and set to eu-north-1. I assumed IAM roles from the CLI and triggered AccessDenied errors on purpose. The sprint repo is public on GitHub with `scripts/nightly-check.sh` committed.
